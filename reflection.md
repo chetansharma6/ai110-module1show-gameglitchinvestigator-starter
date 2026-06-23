@@ -14,9 +14,9 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+|   1   |    Go higher      |    Go lower     |      📉 Go LOWER!      |
+|  100  |    Go lower       |    Go higher    |      📈 Go HIGHER!     |
+|   99  |    Go lower       |    Go higher    |      📈 Go HIGHER!     |
 
 ---
 
