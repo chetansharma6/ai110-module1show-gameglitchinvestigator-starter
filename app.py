@@ -1,7 +1,7 @@
 import random
 import streamlit as st
 
-# FIX: check_guess now lives in logic_utils.py; we imported it here together via the agent.
+# FIX: check_guess now lives in logic_utils.py; I imported it here together via the agent.
 from logic_utils import check_guess
 
 def get_range_for_difficulty(difficulty: str):

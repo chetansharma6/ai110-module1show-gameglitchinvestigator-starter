@@ -53,7 +53,7 @@ def check_guess(guess, secret):
         return "Too Low", "📈 Go HIGHER!"
 
 
-# FIX: Refactored out of app.py with the agent and corrected the scoring bugs we traced.
+# FIX: Refactored out of app.py with the agent and corrected the scoring bugs I traced.
 def update_score(current_score: int, outcome: str, attempt_number: int):
     """Update score based on outcome and attempt number."""
 
